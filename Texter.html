@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body class="body1">
+    <div class="container">
+        <button id="logout" onclick="Logout()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+        <h1 class="header">
+            Kwitter<sup>
+                <img src="m2.png" class="img-respnsive">
+            </sup>
+        </h1>
+        <h3 id="Welcome"></h3>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11" id="empty_div" style="margin-left: 200px;"></div>
+    </div>
+    <div class="message">
+        <label>Send Message:</label>
+        <input type="text" placeholder="Send a Message" id="sender" class="form-control">
+        <button id="send" onclick="Send()" class="btn btn-success">Send</button>
+    </div>
+    <script src="Texter.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+.body1{
+    background-color: #2591d9;
+    text-align: center;
+}
+.header img{
+    width: 80px;
+    margin: -15px;
+}
+.header{
+    margin-top: 80px;
+    font-size: 45px;
+    color: white;
+}
+.login_div{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    margin-left: 500px;
+}
+.logo{
+    width: 80px;
+    border-radius: 40px;
+}
+.trend{
+    color: white;
+}
+#room_name{
+    width: 60%;
+    margin: auto;
+}
+#empty_div{
+    background-color: rgba(255,255,255,0.8);
+    width: 75%;
+    margin: auto;
+    border-radius: 3.5%;
+    padding: 10px;
+    border: black 10px solid;
+}
+#logout{
+    float: right;
+    font-size: 20px;
+}
+#send{
+    width: 50%;
+    margin-top: 10px;
+}
+#sender{
+    width: 75%;
+    margin: auto;
+}
+.message{
+    background-color: rgba(255,255,255,0.8);
+    margin-top: 465px;
+}
+.img_tick{
+    width: 20px;
+}
+.mess_h4{
+    color: grey;
+    padding-left: 5px;
+}
